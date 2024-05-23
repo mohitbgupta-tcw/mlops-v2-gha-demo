@@ -24,8 +24,8 @@ jobs:
       terraform_version: ${{ needs.get-config.outputs.terraform_version }}
       terraform_workingdir: ${{ needs.get-config.outputs.terraform_workingdir }}
       terraform_st_location: ${{ needs.get-config.outputs.terraform_st_location }}
-      terraform_st_storage_account: ${{ needs.get-config.outputs.terraform_st_storage_account }}
-      terraform_st_resource_group: ${{ needs.get-config.outputs.terraform_st_resource_group }}
+      terraform_st_storage_account: stsub-ae-shared-dev-001-esgmlws
+      terraform_st_resource_group: rg-sub-ae-shared-dev-001-esgmlws
       terraform_st_container_name: ${{ needs.get-config.outputs.terraform_st_container_name }}
       terraform_st_key: ${{ needs.get-config.outputs.terraform_st_key }}
       terraform_plan_location: ${{ needs.get-config.outputs.location }}
